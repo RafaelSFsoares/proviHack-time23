@@ -1,0 +1,30 @@
+{
+  "name": "provihack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "nodemon ./backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelSFsoares/proviHack-time23.git"
+  },
+  "author": "Rafael Soares, Matheus Germano, Camila Rangel, Julia Villela, Joyce Luzia, Helio Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelSFsoares/proviHack-time23/issues"
+  },
+  "homepage": "https://github.com/RafaelSFsoares/proviHack-time23#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.12.0-alpha.1",
+    "sequelize-cli": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
