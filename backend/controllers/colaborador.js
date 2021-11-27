@@ -11,6 +11,8 @@ class colaboradorController {
             return res.status(500).json(error.message);
         }
      
+
+        
     } 
 
     static async show (req, res) {
@@ -37,7 +39,42 @@ class colaboradorController {
 
         }
     } 
-}
 
+    static async update(req, res){
+        const {id} = req.params
+        const newInfo = req.body
+        try{
+            await database.Colaborador.update(newInfo, { 
+                where: {
+                id: Number(id)
+            }     
+            })
+            const updateColaborador = await database.Colaborador.findOne({
+                where: {
+                    id:Number(id)
+                }
+            })
+            return res.status(200).json(updateColaborador)
+
+        }catch(error){
+            return res.status(500).json(error.message)
+        }
+    }
+
+    static async remove(req, res){
+        const {id} = req.params
+        try{
+            await database.Colaborador.destroy({
+                where: {
+                    id:Number(id)
+                }
+            })
+            return res.status(200).json({mensagem: `id ${id} deletado`})
+
+        }catch(error){
+            return res.status(500).json(error.message)
+        }
+    }
+}
 
 module.exports = colaboradorController;
