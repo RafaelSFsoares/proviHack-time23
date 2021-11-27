@@ -3,7 +3,7 @@ const colaboradorController = require ('../controllers/colaborador.js');
 
 const router = Router();
 
-router.get('/', colaboradorController.index);
+router.get('/colaborador', colaboradorController.index);
 router.get('/:id', colaboradorController.show);
 router.post('/', colaboradorController.save);
 router.put('/:id', colaboradorController.update);
