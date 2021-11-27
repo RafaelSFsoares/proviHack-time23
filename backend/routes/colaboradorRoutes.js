@@ -4,7 +4,7 @@ const colaboradorController = require ('../controllers/colaborador.js');
 const router = Router();
 
 router.get('/colaborador', colaboradorController.index);
-router.get('/:id', colaboradorController.show);
+router.get('/colaborador:id', colaboradorController.show);
 router.post('/', colaboradorController.save);
 router.put('/:id', colaboradorController.update);
 router.delete('/:id', colaboradorController.remove);
