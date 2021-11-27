@@ -7,7 +7,7 @@ router.get('/colaborador', colaboradorController.index);
 router.get('/colaborador:id', colaboradorController.show);
 router.post('/colaborador', colaboradorController.save);
 router.put('/colaborador:id', colaboradorController.update);
-router.delete('/:id', colaboradorController.remove);
+router.delete('/colaborador:id', colaboradorController.remove);
 
 
 
