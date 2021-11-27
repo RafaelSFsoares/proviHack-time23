@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.titulo-landing {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 70px;
+}
+.conteudo-capa{
+    width:60%;
+}
+.container-capa{
+    display: flex;
+    justify-content: space-between;
+}
+.imagem-capa{
+    width: 500px;
+}
+.footer{
+    background-color: #F8F5ED; 
+    height: 80px;
+}
+@media (max-width: 1100px){
+    .container-capa{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .imagem-capa{
+        width:300px;
+        margin-top: 20px;
+    }
+    .conteudo-capa{
+        width: 90%;
+    }
+    .titulo-landing{
+        font-size: 40px;
+    }
+} 
