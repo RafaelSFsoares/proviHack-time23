@@ -5,7 +5,7 @@ const router = Router();
 
 router.get('/colaborador', colaboradorController.index);
 router.get('/colaborador:id', colaboradorController.show);
-router.post('/', colaboradorController.save);
+router.post('/colaborador', colaboradorController.save);
 router.put('/:id', colaboradorController.update);
 router.delete('/:id', colaboradorController.remove);
 
