@@ -1,5 +1,7 @@
 # PROVI HACK PARA TODOS 2021
-<img src="./imgReadme/provi.gif" width="200">
+<div align="center">
+<img src="./imgReadme/provi.gif" width="250">
+</div>                                            
 O ProviHack pra Todos é uma iniciativa gratuita da Provi para impulsionar profissionais nas suas carreiras em tecnologia através de experiências dinâmicas, palestras e outras trocas.
 
 O tema prosposto nessa edição é: **Como a tecnologia pode fortalecer grupos minorizados?**
