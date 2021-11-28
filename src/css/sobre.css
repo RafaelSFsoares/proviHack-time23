@@ -9,6 +9,13 @@
     color: #487228;
     font-size: 80px;
 }
+.link-nav {
+    color: #487228;
+    text-decoration: none;
+}
+.link-nav:hover{
+    color: #1f4106;
+}
 
 @media (max-width: 1100px){
     .container-capa{

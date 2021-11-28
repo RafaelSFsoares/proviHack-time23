@@ -29,6 +29,13 @@
     display: flex;
     justify-content: space-around;
 }
+.link-nav {
+    color: #487228;
+    text-decoration: none;
+}
+.link-nav:hover{
+    color: #1f4106;
+}
 @media (max-width: 1000px){
     .contatos-cards{
         flex-direction: column;

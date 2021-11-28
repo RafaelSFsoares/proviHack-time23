@@ -12,6 +12,13 @@
 .input-email {
     width:250px;
 }
+.link-nav {
+    color: #487228;
+    text-decoration: none;
+}
+.link-nav:hover{
+    color: #1f4106;
+}
 @media (max-width: 500px) {
     .titulo-login {
         font-size: 50px;
