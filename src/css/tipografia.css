@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.titulo-landing {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 80px;
+}
+.titulo-sobre {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 80px;
+}
+.titulo-login {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 70px;
+}
+.titulo-cadastro {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 70px;
+}
+.nomes{
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size:40px;
+}
+.titulo-recuperacao {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 70px;
+}
+.titulo-inserir-palavra {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 80px;
+}
