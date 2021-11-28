@@ -16,8 +16,8 @@ module.exports = (sequelize, DataTypes) => {
   Palavras.init({
     lingua: DataTypes.STRING,
     palavra_nativa: DataTypes.STRING,
-    palavra_portugues: DataTypes.STRING,
-    transcricao: DataTypes.STRING
+    palavra_portugues: DataTypes.STRING
+    
   }, {
     sequelize,
     modelName: 'Palavras',
