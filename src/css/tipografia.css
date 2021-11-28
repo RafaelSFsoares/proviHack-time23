@@ -42,4 +42,10 @@
 
 .linkcadastro{
     color: #487228;
+    text-decoration: none;
+}
+#concluido{
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 70px;
 }

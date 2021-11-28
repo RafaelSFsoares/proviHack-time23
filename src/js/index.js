@@ -7,6 +7,10 @@ form.addEventListener('submit', function(event){
    
 
  function cadastroUsuario() {
+     let email = document.querySelector("#email").value
+     let senha = document.querySelector("#senha").value  
+     let confirma = document.querySelector("#confirma").value
+
     const body = {        
         nome : document.querySelector("#nome").value,
         email : document.querySelector("#email").value,        
@@ -14,8 +18,10 @@ form.addEventListener('submit', function(event){
         senha : document.querySelector("#senha").value  
     }
     console.log(body);
+    try{            
+        if((email.indexOf('@') > 0) && (senha > 8) && (senha == confirma)){
 
-    const request = fetch
+            const request = fetch
         (url, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
@@ -29,6 +35,18 @@ form.addEventListener('submit', function(event){
             this.errorMessage = error;
             console.error("Está ocorrendo um erro", error)
         })
+        $('#formulario').css('display','none')
+        $('#concluido').html('Agradecemos pelo registro, nossa equipe entrará em contato em breve!')
+        setTimeout(()=>{
+            return location = "./login.html"
+        },2500)
+        }else{
+            throw new Error('Ensira os dados corretamente')
+        }
+    }catch(error){
+        $('.titulo-cadastro').html(error)
+    }
+    
 }
 
 
