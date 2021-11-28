@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linguígena</title>
     <link rel="shortcut icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./src/css/tipografia.css">
+    <link rel="stylesheet" href="./src/css/layout.css">
     <link rel="stylesheet" href="./src/css/landing-page.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -18,11 +20,7 @@
             <img src="./assets/logo-nav.png"
                 alt="Logotipo com a palavra linguígena plataforma colaborativa em verde e vermelho" width="150"
                 height="50" class="d-inline-block align-text-top ms-2">
-            <button type="button" id="btnEntrar" class="btn btn-success me-2">Entrar/Cadastrar</button>
-        </div>
-        </div>
-    </header>
-    <section class="conteudo">
+                <a class="me-3 link-nav" href="./src/html/busca-palavras.html">Registros</a>
         <div class="container-capa ms-2">
             <div class="conteudo-capa">
                 <h1 class="mt-2 titulo-landing">Ajude a manter um registro das línguas indígenas e seu patrimônio
@@ -33,10 +31,11 @@
                     registro pasa as futuras gerações, você pode nos ajudar?
                 </h4>
                 <div class="container-botao mb-5">
-                    <button type="button" id="btnColaborador" class="btn btn-success mt-4">Quero ser um
-                        colaborador!</button>
+                    <button type="button" id="btnColaborador" class="btn btn-success mt-4">Quero ser um colaborador!</button>
+                    <button type="button" class="btn btn-success mt-4" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Para empresas!</button>
                 </div>
-            </div>
+            </div>         
             <img src="./assets/imagem-capa.gif" class="imagem-capa" alt="Imagem de um índio idoso segurando um cajado">
         </div>
     </section>
@@ -46,7 +45,95 @@
       </footer>
         
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Para empresas:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column align-items-center">
+                    <img class="img-modal" src="./assets/grafico-pizza.png">
+                    <p>64% das pessoas acreditam que marcas com pautas ESG podem ser uma força poderosa para a mudança
+                        que elas representam.</p>
+                    <p>
+                        Procuramos empresas parceiras dispostas a doar tecnologia para essas tribos como forma de premiação para as aldeias com maior pontuação no ranking semestral.<br><br>
+                        Um sistema de ranking é capaz de estimular interesse por parte dos participantes em se esforçar para alcançar melhores colocações e prêmios focados na aldeia podem gerar uma competição mais comunitária como se cada aldeia fosse um time.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-pilares">
+        <img src="assets/3-pilares.png" class="pilares">
+    </div>
+    <div class="container-cards mt-2">
+        <div class="card mt-2 shadow" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-text">Apenas <strong>37,4%</strong> dos indígenas no Brasil <strong>falam sua língua
+                        nativa.</strong></p>
+                <a href="https://www.bbc.com/portuguese/brasil-43010108" class="card-link">Ler mais</a>
+            </div>
+        </div>
+        <div class="card mt-2 shadow" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-text">Existem por volta de <strong>170 línguas indígenas ameaçadas de extinção</strong>
+                    no Brasil..</p>
+                <a href="https://pib.socioambiental.org/pt/L%C3%ADnguas_silenciadas,_novas_l%C3%ADnguas"
+                    class="card-link">Ler mais</a>
+            </div>
+        </div>
+        <div class="card mt-2 shadow" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-text">Apenas <strong>12,7%</strong> dos indígenas que não moram mais em terras indígenas
+                    <strong>falam a(s) língua(s) dos seus pais ou avós.</strong>
+                </p>
+                <a href="https://pib.socioambiental.org/pt/L%C3%ADnguas_silenciadas,_novas_l%C3%ADnguas"
+                    class="card-link">Ler mais</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-cards mt-2 mb-5">
+        <div class="card shadow" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-text">A média é de <strong>250 falantes por língua</strong> e existem línguas que contam
+                    com <strong>menos de 10 falantes.</strong></p>
+                <a href="https://pib.socioambiental.org/pt/L%C3%ADnguas_silenciadas,_novas_l%C3%ADnguas"
+                    class="card-link">Ler mais</a>
+            </div>
+        </div>
+        <div class="card mt-2 shadow" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-text"><strong>19 grupos indígenas
+                        já foram extintos</strong> no Brasil desde 1500.</p>
+                <a href="https://brasil500anos.ibge.gov.br/estatisticas-do-povoamento/grupos-indigenas-extintos.html"
+                    class="card-link">Ler mais</a>
+            </div>
+        </div>
+        <div class="card mt-2 shadow" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-text"><strong>817.963</strong>
+                    é o número de indígenas brasileiros conforme o senso de 2021.</p>
+                <a href="https://www.fundobrasil.org.br/blog/povos-indigenas-atualmente-quebre-estereotipos/"
+                    class="card-link">Ler mais</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer shadow  text-center">
+        <a class="link" href="https://github.com/RafaelSFsoares/proviHack-time23"><img class="giticon" src="./assets/github-icon.png"></a> 
+        <p> Provi Hack - Time 23</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
     <script src="./src/js/indexController.js"></script>
 </body>
 

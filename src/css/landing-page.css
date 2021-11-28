@@ -61,14 +61,13 @@
 .card-link:hover{
     color: #203610;
 }
+
 .footer{
-    width: 100%;
-    justify-content:center;
-    bottom: 0;
+    position: relative;
 }
-.giticon{
-    width: 52px;
-    margin: 15px;
+
+.img-modal{
+    width: 300px;
 }
 @media (max-width: 1100px){
     .container-capa{
@@ -87,6 +86,7 @@
     }
     .container-botao{
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
     .container-cards{
