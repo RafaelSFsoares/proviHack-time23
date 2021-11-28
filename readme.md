@@ -38,4 +38,4 @@ Descrição
 
 ## 📜Material de Referência: 
 * [Links Notion](https://sun-feast-8bc.notion.site/Links-de-material-de-refer-ncia-39f35dd0336544a7839988f20cb716fd)
-* [Apresentação]()
+* [Apresentação](https://www.canva.com/design/DAEw_spLqEI/Qn5dbow3zGMxGQrKPwuJjg/view?utm_content=DAEw_spLqEI&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent#14)
