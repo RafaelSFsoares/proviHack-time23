@@ -50,6 +50,9 @@
 .card-link:hover{
     color: #203610;
 }
+.img-modal{
+    width: 300px;
+}
 @media (max-width: 1100px){
     .container-capa{
         flex-direction: column-reverse;
@@ -67,6 +70,7 @@
     }
     .container-botao{
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
     .container-cards{
