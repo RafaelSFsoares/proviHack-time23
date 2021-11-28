@@ -13,4 +13,12 @@
         font-size: 50px;
         text-align: center;
     }
+    
+}
+
+@media (max-width: 1400px) {
+    .footer{
+        bottom: auto;
+    }
+    
 }
