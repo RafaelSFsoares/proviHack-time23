@@ -12,6 +12,10 @@ O tema prosposto nessa edição é: **Como a tecnologia pode fortalecer grupos m
 Línguigena é uma plataforma colaborativa capaz de manter o registo da língua visando o seu patrimonio cultural.
 
 ## :running: Iniciando o projeto
+Clone este repositório em sua máquina
+```
+$ git clone https://github.com/RafaelSFsoares/proviHack-time23.git
+```
 ### 📋 Pré-requisitos para instalação 
 🔧 Instale NodeJS em seu computador. Baixe os aquivos do repositório Linguígena aqui no GitHub. 
 
