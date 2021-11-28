@@ -1,0 +1,12 @@
+.container-busca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 500px) {
+    .titulo-login {
+        font-size: 50px;
+        text-align: center;
+    }
+}
