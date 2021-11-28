@@ -6,7 +6,18 @@ Descrição
 
 
 ## :running: Iniciando o projeto
+### 📋 Pré-requisitos para instalação 
+🔧 Instale NodeJS em seu computador. Baixe os aquivos do repositório Linguígena aqui no GitHub. 
+Crie um banco de dados no sistema SQL de sua preferência: MySQL, Postegree, SQL Server, SQLITE3. 
+Crie uma tabela com o nome colaboradors no banco de sua preferência.
+Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos: 
 ```
+ npm init
+ npm install -g
+ npm install express 
+ npm install mysql2 
+ npm install sequelize sequelize-cli path 
+ npm install cors
 
 ```
 
@@ -24,18 +35,18 @@ Descrição
 
 ## Desenvolvido por:
 
-🚀 **Matheus Germano** - *Product Owner*[GitHub](hhttps://github.com/matgermano)
+🚀 **Matheus Germano** - *Product Owner* - [GitHub](https://github.com/matgermano)
 
 💻 **Camila Rangel** - *Front-end e Designer* - [GitHub](https://github.com/cafrangel)
 
 💻 **Joyce Lusia** - *Front-end* - [GitHub](https://github.com/joycelusia)
 
-⚙️ **Hélio Franco** - *Back-end* - [GitHub](https://github.com/devHelioFranco)
+⚙⌨️  **Hélio Franco** - *Full Stack* - [GitHub](https://github.com/devHelioFranco)
 
-⚙️ **Rafael Soares** - *Back-end* - [GitHub](https://github.com/RafaelSFsoares/)
+⚙⌨️  **Rafael Soares** - *Full Stack* - [GitHub](https://github.com/RafaelSFsoares/)
 
-🗺️**Julia Vilela** - *UX* - [Linkedin](https://www.linkedin.com/in/juliavillela24/)
+🗺️**Julia Vilela** - *UX Designer* - [Linkedin](https://www.linkedin.com/in/juliavillela24/)
 
 ## 📜Material de Referência: 
 * [Links Notion](https://sun-feast-8bc.notion.site/Links-de-material-de-refer-ncia-39f35dd0336544a7839988f20cb716fd)
-* [Apresentação]()
+* [Apresentação](https://www.canva.com/design/DAEw_spLqEI/Qn5dbow3zGMxGQrKPwuJjg/view?utm_content=DAEw_spLqEI&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
