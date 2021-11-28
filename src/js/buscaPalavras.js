@@ -10,20 +10,10 @@ async function buscaPalavras(lingua) {
         
         var div = document.createElement('div');
         caixa.append(div);
-        div.setAttribute('class','palavra')
+        div.setAttribute('class','busca')
 
-        div.innerHTML = `<h1 id="teste">${apiResponse[i].lingua}</h1>`
+        div.innerHTML = `<h1 id="teste" class = "linguagem">Lingua ${apiResponse[i].lingua}</h1> <p>Palavra nativa: ${apiResponse[i].palavra_nativa}</p> <p>Palavra em português: ${apiResponse[i].palavra_portugues}</p>`
 
-        // for (let j = 0; j < apiResponse.length; j++) {
-
-        //     var paragrafo = document.createElement('p');
-
-        //     div.appendChild(paragrafo);
-
-        //     paragrafo.innerHTML = apiResponse[i].lingua
-            
-        // }
-        
         
     }
 
