@@ -62,6 +62,10 @@
     color: #203610;
 }
 
+.footer{
+    position: relative;
+}
+
 @media (max-width: 1100px){
     .container-capa{
         flex-direction: column-reverse;
