@@ -24,7 +24,7 @@
     </header>
     <main>
         <form class="pt-5 mx-4 d-flex flex-column align-items-center">
-            <h3 class="titulo-login">Entrar</h3>
+            <h3 class="titulo-login" id="titulo-login">Entrar</h3>
             <div>
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control mb-3" placeholder="E-mail" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" id="floatingInput">
@@ -37,11 +37,12 @@
             </div>
             
             <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-success">Entrar</button>               
+                <button type="button" id="login" class="btn btn-success">Entrar</button>               
                 
             </div>
-            <div>
-                <p class="mt-2">Não tem conta ainda? <a class="linkcadastro" href="./cadastro.html"> <strong> CADASTRE-SE </strong> </a> </p> 
+            <div class="d-flex flex-column align-items-center mt-2">
+                <p class="mt-2">Não tem conta ainda? <a class="linkcadastro" href="./cadastro.html"> <strong> Cadastre-se! </strong> </a> </p>
+                <p>Esqueceu sua <a class="linkcadastro" href="./recuparecao-senha.html"><strong>senha?</strong> </a> </p> 
             </div>
 
         </form>
@@ -50,6 +51,7 @@
         <a class="link" href="https://github.com/RafaelSFsoares/proviHack-time23"><img class="giticon" src="../../assets/github-icon.png"></a> 
         <p> Provi Hack - Time 23</p>
     </footer>
+    <script src="../js/login.js"></script>
 </body>
 
 </html>
