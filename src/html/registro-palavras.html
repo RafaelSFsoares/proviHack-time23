@@ -31,19 +31,18 @@
             <section class="formulario">
                 <form class="pt-5 mx-4 d-flex flex-column align-items-center">
                     <h1 class="text-center titulo-inserir-palavra my-5">Inserir uma palavra</h1>
-                    <input type="text" class="form-control  mb-4 input-palavras" placeholder="Língua nativa"
+                    <input type="text" id="linguaNativa" class="form-control  mb-4 input-palavras" placeholder="Língua nativa"
                         name="linguagem" aria-describedby="default input example">
 
-                    <input type="text" class="form-control  mb-4 input-palavras" placeholder="Palavra na língua nativa"
+                    <input type="text" id="palavraNativa" class="form-control  mb-4 input-palavras" placeholder="Palavra na língua nativa"
                         id="palavra-nativa" aria-describedby="default input example">
 
-                    <input type="text" class="form-control  mb-4 input-palavras" placeholder="Palavra em português"
+                    <input type="text" id ="palavraPortugues" class="form-control  mb-4 input-palavras" placeholder="Palavra em português"
                         id="palavra-portugues" aria-describedby="default input example">
 
-                    <input type="text" class="form-control  mb-4 input-palavras" placeholder="Transcrição"
-                        id="transcricao" aria-describedby="default input example">
+                   
 
-                    <button type="button" class="btn btn-success mb-5">Cadastrar palavra</button>
+                    <button type="submit" class="btn btn-success mb-5" onclick="cadastroPalavras()">Cadastrar palavra</button>
                 </form>
             </section>
             <section>
@@ -57,6 +56,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script       src="https://code.jquery.com/jquery-3.6.0.min.js"       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="       crossorigin="anonymous"     ></script>
+        <script src="../js/registroPalavras.js"></script> 
 </body>
 
 </html>
