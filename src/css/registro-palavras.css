@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.titulo-inserir-palavra {
+    font-family: "Medula One", cursive;
+    color: #487228;
+    font-size: 80px;
+}
+.input-palavras {
+    width: 300px !important;
+}
+@media (max-width: 500px) {
+    .titulo-inserir-palavra {
+        font-size: 50px;
+        text-align: center;
+    }
+}
