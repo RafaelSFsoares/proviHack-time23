@@ -12,19 +12,54 @@
 .conteudo-capa{
     width:60%;
 }
+.pilares{
+    width:80%;
+}
+.container-pilares{
+    display: flex;
+    justify-content: center;
+}
 .conteudo-capa h4{
     font-size:20px;
 }
 .container-capa{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+.conteudo-capa{
+    width: 58%;
 }
 .imagem-capa{
     width: 500px;
 }
+.container-cards{
+    display: flex;
+    justify-content: space-around;
+}
 .footer{
     background-color: #F8F5ED; 
     height: 80px;
+}
+.card {
+    border: none !important;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:#ebeed0;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+}
+.card-link{
+    color: #487228;
+    text-decoration: none;
+}
+.card-link:hover{
+    color: #203610;
 }
 @media (max-width: 1100px){
     .container-capa{
@@ -44,5 +79,12 @@
     .container-botao{
         display: flex;
         justify-content: center;
+    }
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pilares{
+        width: 100%;
     }
 } 
