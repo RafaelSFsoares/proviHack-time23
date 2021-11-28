@@ -41,11 +41,11 @@ Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos:
 
 💻 **Joyce Lusia** - *Front-end* - [GitHub](https://github.com/joycelusia)
 
-⚙️ **Hélio Franco** - *Back-end* - [GitHub](https://github.com/devHelioFranco)
+⚙⌨️  **Hélio Franco** - *Full Stack* - [GitHub](https://github.com/devHelioFranco)
 
-⚙️ **Rafael Soares** - *Back-end* - [GitHub](https://github.com/RafaelSFsoares/)
+⚙⌨️  **Rafael Soares** - *Full Stack* - [GitHub](https://github.com/RafaelSFsoares/)
 
-🗺️**Julia Vilela** - *UX* - [Linkedin](https://www.linkedin.com/in/juliavillela24/)
+🗺️**Julia Vilela** - *UX Designer* - [Linkedin](https://www.linkedin.com/in/juliavillela24/)
 
 ## 📜Material de Referência: 
 * [Links Notion](https://sun-feast-8bc.notion.site/Links-de-material-de-refer-ncia-39f35dd0336544a7839988f20cb716fd)
