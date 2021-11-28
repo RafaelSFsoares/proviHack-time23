@@ -16,10 +16,10 @@ class palavrasController {
     } 
 
     static async show (req, res) {
-        const {id} = req.params
+        const {lingua} = req.params
         try {
-            const idPalavras = await database.Palavras.findOne( { where:
-                 { id: Number(id) }
+            const idPalavras = await database.Palavras.findAll( { where:
+                 { lingua: String(lingua) }
                 })
             return res.status(200).json(idPalavras);
         } catch (error) {
