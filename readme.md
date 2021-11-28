@@ -1,12 +1,14 @@
 # PROVI HACK PARA TODOS 2021
-
+<div align="center">
+<img src="./imgReadme/provi.gif" width="250">
+</div>                                            
 O ProviHack pra Todos é uma iniciativa gratuita da Provi para impulsionar profissionais nas suas carreiras em tecnologia através de experiências dinâmicas, palestras e outras trocas.
 
 O tema prosposto nessa edição é: **Como a tecnologia pode fortalecer grupos minorizados?**
 
 # Linguígena - Time 23
+<img src="./imgReadme/logo-nav.png" width="700">
 
-Descrição
 Línguigena é uma plataforma colaborativa capaz de manter o registo da língua visando o seu patrimonio cultural.
 
 ## :running: Iniciando o projeto
@@ -40,11 +42,19 @@ Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos:
 * [Sequelize](https://sequelize.org/) - Sequelize é um ORM(Object-Relational Mapper) para NodeJs baseado em promise, utilizado para os bancos de dados: Postgres
 * [MySQL](https://www.mysql.com/) -sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. 
 
-##💡Brainstorm:
+### 💡Brainstorm:
+<img src="./imgReadme/brainstorm.jfif" width="500px">
 
-##🌎Site Map
+### 🌎Site Map
+<img src="./imgReadme/sitemap.jfif" width="500px">
 
-## Desenvolvido por:
+### Figma
+<img src="./imgReadme/figma.jfif" width="500">
+
+## Próximos passos:
+<img src="./imgReadme/proximosPassos.jfif">
+
+### Desenvolvido por:
 
 🚀 **Matheus Germano** - *Product Owner* - [GitHub](https://github.com/matgermano)
 
