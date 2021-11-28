@@ -16,10 +16,13 @@
 .titulo-landing {
     font-family: "Medula One", cursive;
     color: #487228;
-    font-size: 70px;
+    font-size: 80px;
 }
 .conteudo-capa{
     width:60%;
+}
+.conteudo-capa h4{
+    font-size:20px;
 }
 .container-capa{
     display: flex;
@@ -52,5 +55,9 @@
     }
     .footer{
         position: relative;
+    }
+    .container-botao{
+        display: flex;
+        justify-content: center;
     }
 } 
