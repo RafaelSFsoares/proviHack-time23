@@ -32,13 +32,7 @@
     display: flex;
     justify-content: space-around;
 }
-.footer{
-    width: 100%;
-    justify-content:center;
-    bottom: 0;
-    position: absolute;
 
-}
 .link-nav {
     color: #487228;
     text-decoration: none;
@@ -71,7 +65,6 @@
     width: 100%;
     justify-content:center;
     bottom: 0;
-    position: absolute;
 }
 .giticon{
     width: 52px;
@@ -92,9 +85,6 @@
     .titulo-landing{
         font-size: 40px;
     }
-    .footer{
-        position: relative;
-    }
     .container-botao{
         display: flex;
         justify-content: center;
@@ -106,7 +96,5 @@
     .pilares{
         width: 100%;
     }
-    .footer{
-        position: relative;
-    }
+    
 } 
