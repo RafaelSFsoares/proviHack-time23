@@ -1,6 +1,23 @@
+.footer{
+    width: 100%;
+    justify-content:center;
+    bottom: 0;
+    position: absolute;
+}
+.giticon{
+    width: 52px;
+    margin: 15px;
+}
+
+
+
+
 @media (max-width: 500px) {
     .titulo-formulario {
         font-size: 50px;
         text-align: center;
+    }
+    .footer{
+        position: relative;
     }
 }
