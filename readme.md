@@ -1,15 +1,22 @@
 # PROVI HACK PARA TODOS 2021
 
+O ProviHack pra Todos é uma iniciativa gratuita da Provi para impulsionar profissionais nas suas carreiras em tecnologia através de experiências dinâmicas, palestras e outras trocas.
+
+O tema prosposto nessa edição é: **Como a tecnologia pode fortalecer grupos minorizados?**
+
 # Linguígena - Time 23
 
 Descrição
-
+Línguigena é uma plataforma colaborativa capaz de manter o registo da língua visando o seu patrimonio cultural.
 
 ## :running: Iniciando o projeto
 ### 📋 Pré-requisitos para instalação 
 🔧 Instale NodeJS em seu computador. Baixe os aquivos do repositório Linguígena aqui no GitHub. 
+
 Crie um banco de dados no sistema SQL de sua preferência: MySQL, Postegree, SQL Server, SQLITE3. 
+
 Crie uma tabela com o nome colaboradors no banco de sua preferência.
+
 Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos: 
 ```
  npm init
@@ -33,6 +40,10 @@ Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos:
 * [Sequelize](https://sequelize.org/) - Sequelize é um ORM(Object-Relational Mapper) para NodeJs baseado em promise, utilizado para os bancos de dados: Postgres
 * [MySQL](https://www.mysql.com/) -sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. 
 
+##💡Brainstorm:
+
+##🌎Site Map
+
 ## Desenvolvido por:
 
 🚀 **Matheus Germano** - *Product Owner* - [GitHub](https://github.com/matgermano)
@@ -41,12 +52,16 @@ Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos:
 
 💻 **Joyce Lusia** - *Front-end* - [GitHub](https://github.com/joycelusia)
 
-⚙⌨️  **Hélio Franco** - *Full Stack* - [GitHub](https://github.com/devHelioFranco)
+⌨️  **Hélio Franco** - *Full Stack* - [GitHub](https://github.com/devHelioFranco)
 
-⚙⌨️  **Rafael Soares** - *Full Stack* - [GitHub](https://github.com/RafaelSFsoares/)
+⌨️  **Rafael Soares** - *Full Stack* - [GitHub](https://github.com/RafaelSFsoares/)
 
 🗺️**Julia Vilela** - *UX Designer* - [Linkedin](https://www.linkedin.com/in/juliavillela24/)
 
-## 📜Material de Referência: 
+## ▶️ Videos de apresentação:
+* [Pitch]()
+* [Demo]()
+
+## 📜 Material de Referência: 
 * [Links Notion](https://sun-feast-8bc.notion.site/Links-de-material-de-refer-ncia-39f35dd0336544a7839988f20cb716fd)
 * [Apresentação](https://www.canva.com/design/DAEw_spLqEI/Qn5dbow3zGMxGQrKPwuJjg/view?utm_content=DAEw_spLqEI&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
