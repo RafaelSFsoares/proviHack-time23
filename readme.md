@@ -6,9 +6,21 @@ Descrição
 
 
 ## :running: Iniciando o projeto
+### 📋 Pré-requisitos para instalação 
+🔧 Instale NodeJS em seu computador. Baixe os aquivos do repositório Linguígena aqui no GitHub. 
+Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos: 
 ```
+ npm init
+ npm install -g
+ npm install express 
+ npm install mysql2 
+ npm install sequelize sequelize-cli path 
+ npm install cors
 
 ```
+Crie um banco de dados no sistema SQL de sua preferência: MySQL, Postegree, SQL Server. 
+Crie uma tabela com o nome colaboradors no banco de sua preferência.
+
 
 ## :computer: Tecnologias utilizadas
 * [Miro](https://miro.com/app/) - Ferramenta de Brainstorm e ideação.
