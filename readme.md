@@ -24,7 +24,7 @@ Descrição
 
 ## Desenvolvido por:
 
-🚀 **Matheus Germano** - *Product Owner* - [GitHub](hhttps://github.com/matgermano)
+🚀 **Matheus Germano** - *Product Owner* - [GitHub](https://github.com/matgermano)
 
 💻 **Camila Rangel** - *Front-end e Designer* - [GitHub](https://github.com/cafrangel)
 
