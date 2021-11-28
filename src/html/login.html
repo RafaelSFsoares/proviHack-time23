@@ -26,8 +26,14 @@
         <form class="pt-5 mx-4 d-flex flex-column align-items-center">
             <h3 class="titulo-login">Entrar</h3>
             <div>
-                <input type="email" class="form-control mb-3" placeholder="E-mail" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">
-                <input type="password" class="form-control mb-3" placeholder="Senha" id="exampleInputPassword1">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control mb-3" placeholder="E-mail" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" id="floatingInput">
+                    <label for="floatingInput">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input input type="password" class="form-control mb-3" placeholder="Senha" id="floatingInput" >
+                    <label for="floatingInput">Senha</label>
+                  </div>
             </div>
             <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-success">Entrar</button>
