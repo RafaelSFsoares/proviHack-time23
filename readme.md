@@ -5,6 +5,7 @@ O ProviHack pra Todos é uma iniciativa gratuita da Provi para impulsionar profi
 O tema prosposto nessa edição é: **Como a tecnologia pode fortalecer grupos minorizados?**
 
 # Linguígena - Time 23
+<img src="./imgReadme/logo-nav.png">
 
 Descrição
 Línguigena é uma plataforma colaborativa capaz de manter o registo da língua visando o seu patrimonio cultural.
@@ -40,11 +41,18 @@ Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos:
 * [Sequelize](https://sequelize.org/) - Sequelize é um ORM(Object-Relational Mapper) para NodeJs baseado em promise, utilizado para os bancos de dados: Postgres
 * [MySQL](https://www.mysql.com/) -sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. 
 
-##💡Brainstorm:
+### 💡Brainstorm:
+<img src="./imgReadme/brainstorm.jpg" width="400">
 
-##🌎Site Map
+### 🌎Site Map
+<img src="./imgReadme/sitemap.jpg" width="400">
 
-## Desenvolvido por:
+### Figma
+<img src="./imgReadme/figma.jpg" width="400">
+
+## Próximos passos:
+<img src="./imgReadme/proximosPassos.jpg">
+### Desenvolvido por:
 
 🚀 **Matheus Germano** - *Product Owner* - [GitHub](https://github.com/matgermano)
 
