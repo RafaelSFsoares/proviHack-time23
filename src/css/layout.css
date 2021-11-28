@@ -1,0 +1,10 @@
+.footer{
+    width: 100%;
+    justify-content:center;
+    bottom: 0;
+    position: absolute;
+}
+.giticon{
+    width: 52px;
+    margin: 15px;
+}
