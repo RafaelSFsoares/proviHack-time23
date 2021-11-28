@@ -1,4 +1,5 @@
 const colaboradores = require('./colaboradorRoutes');
+const palavras = require('./palavrasRoutes');
 const express = require('express');
 const cors = require('cors');
 
@@ -12,6 +13,7 @@ module.exports = app => {
     });
 
     app.use(colaboradores);
+    app.use(palavras);
     
     
     
