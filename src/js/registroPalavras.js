@@ -1,12 +1,19 @@
 const url = `http://localhost:3000/palavras`;
 let form = document.querySelector("form")
+let titulo = document.getElementById("titulo")
+
 form.addEventListener('submit', function(event){
     event.preventDefault()
-    event.stopPropagation()})
+    event.stopPropagation()
+    titulo.innerText = 'Obrigado pelo registro! \n Nossos colaboradores irão avaliar em breve. '})
 
+    
    
 
  function cadastroPalavras() {
+    
+    
+    
     const body = {        
         lingua : document.querySelector("#linguaNativa").value,
         palavra_nativa : document.querySelector("#palavraNativa").value,        
