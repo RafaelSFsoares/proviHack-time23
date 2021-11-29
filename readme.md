@@ -9,7 +9,7 @@ O tema prosposto nessa edição é: **Como a tecnologia pode fortalecer grupos m
 # Linguígena - Time 23
 <img src="./imgReadme/logo-nav.png" width="700">
 
-Línguigena é uma plataforma colaborativa capaz de manter o registo da língua visando o seu patrimonio cultural.
+Linguígena é uma plataforma colaborativa capaz de manter o registo da língua visando o seu patrimônio cultural.
 
 ## :running: Iniciando o projeto
 Clone este repositório em sua máquina
@@ -17,11 +17,11 @@ Clone este repositório em sua máquina
 $ git clone https://github.com/RafaelSFsoares/proviHack-time23.git
 ```
 ### 📋 Pré-requisitos para instalação 
-🔧 Instale NodeJS em seu computador. Baixe os aquivos do repositório Linguígena aqui no GitHub. 
+🔧 Instale NodeJS em seu computador. Baixe os arquivos do repositório Linguígena aqui no GitHub. 
 
 Crie um banco de dados no sistema SQL de sua preferência: MySQL, Postegree, SQL Server, SQLITE3. 
 
-Crie uma tabela com o nome colaboradors no banco de sua preferência.
+Crie uma tabela com o nome colaboradores no banco de sua preferência.
 
 Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos: 
 ```
