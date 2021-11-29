@@ -73,8 +73,8 @@ Entre na pasta Back-end e instale via terminal utilizando os seguintes comandos:
 🗺️**Julia Vilela** - *UX Designer* - [Linkedin](https://www.linkedin.com/in/juliavillela24/)
 
 ## ▶️ Videos de apresentação:
-* [Pitch]()
-* [Demo]()
+* [Pitch](https://youtu.be/9mx-QvXyljo)
+* [Demo](https://youtu.be/gJSKgQspLwY)
 
 ## 📜 Material de Referência: 
 * [Links Notion](https://sun-feast-8bc.notion.site/Links-de-material-de-refer-ncia-39f35dd0336544a7839988f20cb716fd)
